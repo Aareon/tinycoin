@@ -1,3 +1,4 @@
+from __future__ import print_function
 import block as B
 GENESIS_BLOCK = B.BlockTX([])
 GENESIS_HEADER = B.BlockHeader(0, GENESIS_BLOCK.hash(), None, "me", 0)
